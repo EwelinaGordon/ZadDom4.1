@@ -4,7 +4,6 @@ public class TriangleTest {
 
     public static void main(String[] args) {
 
-        Triangle trg = new Triangle();
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Podaj A: ");
@@ -16,8 +15,8 @@ public class TriangleTest {
         System.out.println("Podaj C: ");
         int c = scan.nextInt();
 
-
-        trg.findMax(a, b, c);
+        Max max = new Max();
+        Triangle trg = max.findMax(a, b, c);
 
 
         System.out.println("A: " + trg.max);
