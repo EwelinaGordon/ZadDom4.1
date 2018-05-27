@@ -1,7 +1,7 @@
 public class Triangle {
-    int max;
-    int bokB;
-    int bokC;
+    private int max;
+    private int bokB;
+    private int bokC;
 
     public void setMax(int max) {
         this.max = max;
