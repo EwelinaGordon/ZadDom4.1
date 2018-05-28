@@ -4,7 +4,7 @@ public class RightTriangle {
 
     public boolean isRightTriangle(Triangle trg) {
 
-        boolean result = trg.max * trg.max == (trg.bokB * trg.bokB) + (trg.bokC * trg.bokC);
+        boolean result = trg.getMax() * trg.getMax() == (trg.getBokB() * trg.getBokB()) + (trg.getBokC() * trg.getBokC());
         return result;
     }
 }

@@ -19,9 +19,9 @@ public class TriangleTest {
         Triangle trg = max.findMax(a, b, c);
 
 
-        System.out.println("A: " + trg.max);
-        System.out.println("B: " + trg.bokB);
-        System.out.println("C: " + trg.bokC);
+        System.out.println("A: " + trg.getMax());
+        System.out.println("B: " + trg.getBokB());
+        System.out.println("C: " + trg.getBokC());
 
 
         RightTriangle rth = new RightTriangle();
