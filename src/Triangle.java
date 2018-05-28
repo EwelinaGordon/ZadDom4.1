@@ -11,6 +11,12 @@ public class Triangle {
         this.bokB = bokB;
     }
 
+    public Triangle(int max, int bokB, int bokC) {
+        this.max = max;
+        this.bokB = bokB;
+        this.bokC = bokC;
+    }
+
     public void setBokC(int bokC) {
         this.bokC = bokC;
     }
